@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+</head>
+<body>
+    <form action="#">       
+      <fieldset >
+        <legend><b>DADOS PESSOAIS</b></legend>
+            
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
+
+        <label for="email">E-Mail</label>
+        <input type="email" name="email" id="email">
+
+        <label for="cpf">CPF</label>
+        <input type="text" nome="cpf" id="cpf" maxlength="14">
+
+        <label for="rg">RG</label>
+        <input type="text" name="rg" id="rg" maxlength="14">
+
+        <label for="">Data De Nascimento</label>
+        <input type="date">
+
+        <h4><b>Endereço</b></h4>
+
+        <label for="pais">País</label>
+        <input type="pais" name="pais" id="pais">
+
+        <label for="estado">Estado</label>
+        <input type="text" name="estado" id="estado">
+        
+        <label for="cidade">Cidade</label>
+        <input type="text" name="cidade" id="cidade">
+
+        <br>
+        <br>
+
+        <label for="cep">CEP</label>
+        <input type="text" nome="cep" id="cep" maxlength="8">
+
+        <label for="bairro">Bairro</label>
+        <input type="text" name="bairro" id="bairro">
+
+        <label for="rua">Rua</label>
+        <input type="text" name="rua" id="rua">
+
+        <label for="numCasa">Numero da Casa</label>
+        <input type="number" name="numCasa" id="numCasa">
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>OBJETIVOS</b></legend>
+        <label for="Objetivo"><b>Nos conte um pouco sobre seus objetivos pessoais e na empersa.</b></label><br>
+        <textarea name="objetivos" id="objetivos" cols="60" rows="15" placeholder="Digite aqui."></textarea>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>FORMAÇÃO ACADÊMICA</b></legend>
+
+        
+        <label for="escola">Escola</label>
+        <input type="text" name="escola" id="escola">
+
+        <label for="anoEstudo">Conclusão</label>
+        <input type="text" name="anoEstudo" id="anoEstudo">
+
+        <input type="text" name="lista" list="lista" placeholder="Escola Completa?">
+        <datalist id="lista">
+          <option value="Sim"></option>
+          <option value="Não"></option>
+        </datalist>
+        
+        <label for="faculdade">Faculdade</label>
+        <input type="text" name="faculdade" id="falculdade">
+
+        <label for="nivelIngles">Nivel de Ingles</label>
+        <input type="text" name="nivelIngles" id="nivelIngles" placeholder="Baixo, Médio, Bom, Fluente">
+        <br>
+        <br>
+        <label for="formaAcademica">Observaçoes</label><br>
+        <textarea name="formaAcademica" id="formaAcademica" cols="64" rows="2" placeholder="Digite aqui."></textarea>
+      </fieldset>
+    <br>
+      <fieldset>
+          <legend><b>HABILIDADES E COMPETÊNCIAS</b></legend>
+          <label for="formaAcademica">Cite suas habilidades e competências.</label><br>
+          <textarea name="formaAcademica" id="formaAcademica" cols="64" rows="6" placeholder="Digite aqui."></textarea>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>EXPERIÊNCIAS PROFISSIONAIS</b></legend>
+
+        <label for="primeira">Onde Trabalhou?</label><br>
+        <textarea name="primeira" id="primeira" cols="64" rows="6" placeholder="Digite aqui. OBS: cite o período em que trabalhou."></textarea>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend><b>INFORMAÇÕES COMPLEMENTARES</b></legend>
+       
+        <label for="Complementacoes">Complementações.</label><br>
+        <textarea name="Complementacoes" id="Complementacoes" cols="64" rows="6" placeholder="Se tiver algo a complementar."></textarea>
+      </fieldset>
+    </form>
+</body>
+</html>
