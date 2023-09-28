@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Nunito:ital,wght@0,200;0,300;0,500;0,700;1,200;1,300;1,500;1,700&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.esquerda{
+    background-color: #cccccc67;
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+}
+
+
+
+ 
+.title{   
+    display:block;
+    text-align: center;
+    padding-top: 40%;
+    padding-bottom: 5%;
+}
+
+
+
+
+.email{
+    width: 39px;
+    margin: 0 0% 0px 28%;
+}
+#email{
+    background-color:#fff;
+    display: block;
+    min-width: 31vh;
+    height: 3vh;
+    border-radius: 5px;
+    border-color: #ececec;
+}
+
+
+
+.senha{
+    display: inline-block;
+    width: 5vh;
+    margin: 0 0% 0px 28%;
+    margin-top: 5%;
+}
+.EsqSenha{
+
+    margin: 0 0 0 22%;
+    display: inline-block;
+    font-size: 10px;
+}
+#senha{
+    background-color:#fff;
+    display: block;
+    margin-left: 28%;
+    min-width: 31vh;
+    height: 3vh;
+    border-radius: 5px;
+    border-color: #ececec;
+}
+
+
+
+
+
+#entrar{
+    background-color: royalblue;
+    display: block;
+    margin-top: 10%;
+    margin-left: 28%;
+    min-width: 31.5vh;
+    height: 3vh;
+    font-size: 100%;
+    color: #fff;
+    border-radius: 5px;
+    border-color: royalblue;
+}
+#entrar:hover{
+    background-color: rgb(43, 43, 170);
+    transition: 0.3s ease-in;
+
+}
+
+
+
+
+.divisoria{
+    margin-top: 3%;
+    margin-left: 28%;
+    min-width: 31.5vh;
+    width: 11%;
+    border: 1px solid #00000036;
+}
+
+
+
+
+#semConta{
+    background-color:#fff;
+    border-color: #ececec;
+    display: block;
+    margin-top: 3%;
+    margin-left: 28%;
+    min-width: 31.5vh;
+    height: 3vh;
+    border-radius: 5px;
+    font-size: 100%;
+}
+#semConta:hover{
+    background-color: rgb(196, 196, 196);
+    transition: 0.3s ease-in;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* }
+.esquerda{
+    display: inline-block;
+    background-color: #ccc;
+    min-width: 41%;
+    min-height: 100%;
+    padding: 5px;
+}
+.title{
+     display:block;
+     /* background-color: blue; 
+     margin-top:40%;
+     margin-left:35%;
+     padding-bottom: 7vh;
+}
+/* #form{
+    max-width: 100%;
+    min-height: 45%;
+    margin:0 auto;
+    padding-top: 1vh;
+}
+#email{
+    background-color: #fff;
+    /* padding-bio:10vh; 
+    width: 54%;
+    margin-bottom: 4vh;
+    margin-left: 140px; 
+
+
+}
+.email h5{
+    /* display: inline-block; */
+    /* padding: 5px; 
+    margin-left: 140px;  */
+     
+     /* margin-left: 145px; */
+/* } 
+.email input{
+    display: block;
+    padding: 5px;
+    margin-left: 140px;
+}
+.senha h5{
+    display: inline-block;
+    padding: 5px;
+    margin-left: 140px; 
+}
+.senha input{
+    display: block;
+    padding: 5px;
+    margin-left: 140px; 
+
+}
+.entrar input{
+  display: inline-block;
+  padding: 5px 11%;
+  margin-left: 12%; 
+  background-color: rgb(90, 90, 247);
+} 
+.semConta input{
+    display: inline-block;
+    padding: 5px 9%;
+    margin-left: 12%; 
+    background-color: #ccc ;
+} */ 
